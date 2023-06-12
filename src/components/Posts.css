@@ -1,0 +1,23 @@
+.each-post-containers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin:10px;
+}
+.each-post-container{
+    display: flex;
+    flex-direction: column;
+    height:300px;
+    width:300px;
+    font-size: 16px;
+   
+    background-color: skyblue;
+    margin: 20px;
+}
+.each-post-title{
+    font-size: smaller;
+}
+.each-post-body{
+    font-size: large;
+}
