@@ -27,7 +27,7 @@ const Posts = () => {
         {posts&&posts.map((eachPost,index)=>{
             return(
                <div className='each-post-container' key={index} >
-                    <Link to={`{/posts/:${eachPost.userId}}`}>
+                    <Link to={`{/posts/:${eachPost.id}}`}>
                     <h1 className='each-post-title'>{eachPost.title}</h1>
                    <p className='each-post-body'>{eachPost.body}</p>
                    </Link>
