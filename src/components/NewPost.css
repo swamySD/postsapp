@@ -1,8 +1,11 @@
 .each-post-containers{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     height: 100vh;
+    width: 100vw;
     margin:10px;
     position: relative;
 }
@@ -12,13 +15,6 @@
     height:300px;
     width:300px;
     font-size: 16px;
-   
     background-color: skyblue;
     margin: 20px;
-}
-.each-post-title{
-    font-size: smaller;
-}
-.each-post-body{
-    font-size: large;
 }

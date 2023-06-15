@@ -1,4 +1,4 @@
-import { BrowserRouter,Routes,Route, Router } from 'react-router-dom';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Posts from './components/Posts';
 import Post from './components/Post';
 import NewPost from './components/NewPost';
